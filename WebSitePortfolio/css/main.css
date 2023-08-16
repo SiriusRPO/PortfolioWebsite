@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark light;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #000F21;
+}
+
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 50em;
+  max-width: -moz-min-content;
+  max-width: min-content;
+  padding: 0.5rem 0rem;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.menu {
+  margin: 0;
+  padding: 0.1rem;
+  display: flex;
+  list-style-type: none;
+}
+.menu li {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50rem;
+  padding: 0.3rem 1.5rem;
+  margin: 0rem 0.5rem;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.menu a:hover {
+  color: grey;
+}
+.menu a:active {
+  color: darkslategrey;
+}
+
+.intro {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000F21;
+}
+.intro h1 {
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+}
+.intro p {
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background: no-repeat;
+  background-position: center;
+  background-Size: cover;
+}
+
+.layer1 {
+  background-image: url("/images/Back1.svg");
+}
+
+.aboutme {
+  background-color: #BE2626;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2rem;
+}
+
+.content-wrapper {
+  max-width: 900px;
+  margin: -20px auto;
+  padding: 3rem 0.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.content-wrapper img {
+  border-radius: 2rem;
+}
+.content-wrapper .item1 {
+  flex: 1;
+}
+.content-wrapper .item2 {
+  flex: 1;
+}
+
+.prog {
+  min-height: 400px;
+}/*# sourceMappingURL=main.css.map */
